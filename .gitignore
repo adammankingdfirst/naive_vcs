@@ -1,2 +1,18 @@
-node_modules/
-.env
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test repositories
+test_repo/
+*.nvcs/
